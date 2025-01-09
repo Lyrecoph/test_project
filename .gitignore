@@ -1,0 +1,22 @@
+# Ignorer les fichiers de configuration locaux et sensibles
+.env
+*.env
+venv
+
+# Ignorer les dossiers de compilation et de cache
+__pycache__/
+db.sqlite3
+*.pyc
+dist/
+build/
+
+# Ignorer les fichiers de migration de Django
+**/migrations/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers d'environnement de développement local
+.vscode/
+.idea/
+.DS_Store
